@@ -1,6 +1,7 @@
 ---
 import { SOCIALS } from "@/constants";
 import LinkButton from "./LinkButton.astro";
+import IconRss from "@/assets/icons/IconRss.svg";
 ---
 
 <div class="flex flex-wrap items-center gap-1">
@@ -16,4 +17,18 @@ import LinkButton from "./LinkButton.astro";
       </LinkButton>
     ))
   }
+  <a
+    target="_blank"
+    href="/rss.xml"
+    class="mx-2 inline-block"
+    aria-label="rss feed"
+    title="RSS Feed"
+  >
+    <IconRss
+      width={20}
+      height={20}
+      class="scale-125 stroke-accent stroke-3 rtl:-rotate-90 baseline"
+    />
+    <span class="sr-only">RSS Feed</span>
+  </a>
 </div>
