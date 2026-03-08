@@ -1,20 +1,20 @@
 export const SITE = {
   website: "https://www.abes.fyi/", // replace this with your deployed domain
   author: "Abe Leininger",
-  profile: "https://satnaing.dev/",
+  profile: "",
   desc: "Abe",
   title: "Abe's Blog",
-  ogImage: "astropaper-og.jpg",
+  ogImage: "",
   lightAndDarkMode: true,
   postPerIndex: 4,
   postPerPage: 4,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
-  showArchives: true,
+  showArchives: false,
   showBackButton: true, // show back button in post detail
   editPost: {
-    enabled: true,
+    enabled: false,
     text: "Edit page",
-    url: "https://github.com/satnaing/astro-paper/edit/main/",
+    url: "",
   },
   dynamicOgImage: true,
   dir: "ltr", // "rtl" | "auto"
