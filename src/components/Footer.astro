@@ -24,9 +24,17 @@ const { noMarginTop = false, class: className, ...attrs } = Astro.props;
   >
     <Socials />
     <div class="my-2 flex flex-col items-center whitespace-nowrap sm:flex-row">
-      <span>Copyright &#169; {currentYear}</span>
+      <span>&#169; {currentYear} Abe</span>
       <span class="hidden sm:inline">&nbsp;|&nbsp;</span>
-      <span>All rights reserved.</span>
+      <p>
+        Powered by
+        <a
+          href="https://github.com/satnaing/astro-paper"
+          class="text-blue-400 hover:underline"
+        >
+          astro-paper
+        </a>
+      </p>
     </div>
   </div>
 </footer>

@@ -14,6 +14,7 @@ const { title, description, ...props } = data;
 ---
 
 <li class="my-6">
+  <Datetime {...props} />
   <a
     href={getPath(id, filePath)}
     class:list={[
@@ -28,6 +29,4 @@ const { title, description, ...props } = data;
       {title}
     </Heading>
   </a>
-  <Datetime {...props} />
-  <p>{description}</p>
 </li>

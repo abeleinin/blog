@@ -1,13 +1,13 @@
 export const SITE = {
   website: "https://www.abes.fyi/", // replace this with your deployed domain
   author: "Abe Leininger",
-  profile: "",
-  desc: "Abe",
-  title: "Abe's Blog",
+  profile: "https://github.com/abeleinin",
+  desc: "",
+  title: "Beyond the Horizon",
   ogImage: "",
   lightAndDarkMode: true,
-  postPerIndex: 4,
-  postPerPage: 4,
+  postPerIndex: 10,
+  postPerPage: 10,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
   showArchives: false,
   showBackButton: true, // show back button in post detail

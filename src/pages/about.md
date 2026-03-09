@@ -3,4 +3,6 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-Posts about ML, systems engineering, and robotics
+Hi, this is Abe! 
+
+I'm still organizing my thoughts, but this is where they'll go...
